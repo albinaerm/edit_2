@@ -1,0 +1,14 @@
+version: 2
+
+models:
+
+- name: clientes
+  columns:
+    - name: ID
+      tests:
+       - unique
+       - not_null
+    
+    
+        
+      
